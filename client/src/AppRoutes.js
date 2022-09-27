@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Route, Routes, useLocation, Navigate } from 'react-router-dom';
+import noAuthPages from "./pages/noAuthPages";
 
 const AppRoutes = ({ isVisible}) => {
     const location = useLocation();
@@ -17,7 +18,7 @@ const AppRoutes = ({ isVisible}) => {
         }
         <Routes location={location} key={location.pathname}>
             {/* App routes */}
-            <Route path="/"></Route>
+            <Route path="/" element={<noAuthPages.Home />}></Route>
         </Routes>
     </AnimatePresence>
   )

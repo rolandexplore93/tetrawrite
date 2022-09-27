@@ -1,0 +1,66 @@
+.home-banner {
+    background-color: #004080;
+    // border: 1px solid red;
+    height: 724px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+
+    &__content {
+        // border: 1px solid red;
+    }
+
+    &__text1 {
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    &__text2 {
+        color: #fff;
+        font-size: 64px;
+        margin: 0;
+    }
+
+    &__text3 {
+        color: #fff;
+        width: 356px;
+    }
+
+    &__submission {
+        display: flex;
+        gap: 20px;
+
+        & > button {
+            padding: 16px 32px;
+            outline: 0;
+            cursor: pointer;
+        }
+        
+    }
+    
+    &__proceed-button {
+        color: #fff;
+        background-color: #004080;
+        border: 1px solid #ddd;
+    }
+
+    &__request-button {
+        background-color: #FFC700;
+        color: #000;
+        border: 1px solid #FFC700;
+    }
+
+    &__image {
+        // border: 1px solid blue;
+        height: 544px;
+
+        & > img {
+            // border: 1px solid red;
+            height: inherit;
+            width: 100%;
+            
+        }
+    }
+}
