@@ -1,6 +1,8 @@
+@import '../../../assets/styles/mixins';
+@import '../../../assets/styles/variable';
+
 .home-banner {
-    background-color: #004080;
-    // border: 1px solid red;
+    background-color: $tetra-blue;
     height: 724px;
     display: flex;
     gap: 20px;
@@ -9,23 +11,22 @@
     padding: 0 70px;
 
     &__content {
-        // border: 1px solid red;
     }
 
     &__text1 {
-        color: #fff;
+        color: $white-color;
         text-transform: uppercase;
     }
 
     &__text2 {
-        color: #fff;
-        font-size: 64px;
+        color: $white-color;
         margin: 0;
     }
 
     &__text3 {
-        color: #fff;
-        width: 356px;
+        color: $white-color;
+        width: 440px;
+        margin: 24px 0;
     }
 
     &__submission {
@@ -36,31 +37,27 @@
             padding: 16px 32px;
             outline: 0;
             cursor: pointer;
-        }
-        
+        }    
     }
     
     &__proceed-button {
-        color: #fff;
-        background-color: #004080;
-        border: 1px solid #ddd;
+        color: $white-color;
+        background-color: $tetra-blue;
+        border: 1px solid $white-color;
     }
 
     &__request-button {
-        background-color: #FFC700;
+        background-color: $tetra-yellow;
         color: #000;
-        border: 1px solid #FFC700;
+        border: 1px solid $tetra-yellow;
     }
 
     &__image {
-        // border: 1px solid blue;
         height: 544px;
 
         & > img {
-            // border: 1px solid red;
             height: inherit;
-            width: 100%;
-            
+            width: 100%;      
         }
     }
 }
