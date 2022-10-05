@@ -1,7 +1,9 @@
-import HomeBanner from "./HomeBanner/HomeBanner"
+import HomeBanner from "./HomeBanner/HomeBanner";
+import Testimonials from "./Testimonials/Testimonials";
 
 const primaryComponents = {
-    HomeBanner
+    HomeBanner,
+    Testimonials
 }
 
 export default primaryComponents
