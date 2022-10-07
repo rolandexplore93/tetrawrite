@@ -8,25 +8,24 @@
 
     &__content {
         flex: 1;
-        border: 1px solid red;
 
         &__title {
             text-transform: uppercase;
         }
 
         &__subtitle {
-            // border: 1px solid red;
             margin: 24px 0;
         }
 
         &__text {
-            color: #998F8F;
-
+            color: $muted-color;
         }
-
     }
 
     &__carousel {
         flex: 2;
+        // border: 1px solid red;
+        // padding: 0 20px;
+
     }
 }

@@ -74,9 +74,36 @@ const Home = () => {
               <button className="home__projects__card-proceed">Learn more</button>
             </div>
           </div>
-
         </div>
         <primaryComponents.Testimonials />
+        <div className="home__why-us">
+          <h2 className="home__why-us__title">Reasons why you should choose us</h2>
+          <div className="home__why-us__cards">
+            <div className="home__why-us__card">
+              <h3>Cross-Industry Expertise</h3>
+              <p>As a diverse and multi-faceted team, we are empowed to develop product solutions accress industries. As a diverse and multi-faceted team, we are empowed to develop product solutions accress industries.</p>
+            </div>
+            <div className="home__why-us__card">
+              <h3>Cross-Industry Expertise</h3>
+              <p>As a diverse and multi-faceted team, we are empowed to develop product solutions accress industries. As a diverse and multi-faceted team, we are empowed to develop product solutions accress industries.</p>
+            </div>
+            <div className="home__why-us__card">
+              <h3>Cross-Industry Expertise</h3>
+              <p>As a diverse and multi-faceted team, we are empowed to develop product solutions accress industries. As a diverse and multi-faceted team, we are empowed to develop product solutions accress industries.</p>
+            </div>
+          </div>
+        </div>
+        <div className="home__our-goals">
+          <div className="home__our-goals__image-wrapper">
+            <img src={images.pointAtMacLaptop} alt="our-goals-img" />
+          </div>
+          <div className="home__our-goals__content">
+            <h2>What we aim to achieve</h2>
+            <h4 className='font-weight-normal'>Our Mission is to make you take advantage of the tech space with a satisfying experience.</h4>
+            <button className='font-weight-bold'>Learn more about how we work</button>
+          </div>
+
+        </div>
     </div>
   )
 }

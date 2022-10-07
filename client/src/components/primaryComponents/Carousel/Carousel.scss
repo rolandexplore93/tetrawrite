@@ -1,0 +1,31 @@
+@import '../../../assets/styles/mixins';
+@import '../../../assets/styles/variable';
+
+.carousel {
+    overflow: hidden;
+
+    &__inner {
+        white-space: nowrap;
+        transition: transform 0.3s;
+    }
+
+    &__indicators {
+        display: flex;
+        justify-content: center;
+
+        & > button {
+            margin: 5px;
+        }
+    }
+}
+
+.carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: $tetra-orange;
+    color: $white-color;
+    margin-right: 1%;
+    // border: 1px solid red;
+}
