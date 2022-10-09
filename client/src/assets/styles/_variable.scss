@@ -1,0 +1,64 @@
+$tetra-blue: #004080;
+$tetra-yellow: #FFC700;
+$tetra-yellow-light: #FFE999;
+$white-color: #ffffff;
+$black-color: #000912;
+$blue-color: #217FF2;
+$skyblue-color: #E4F1FF;
+$danger-color: #dc3545;
+
+.yellow {
+    background: $tetra-yellow !important;
+
+    &--text {
+        color: $tetra-yellow !important;
+    }
+}
+
+.blue {
+    background: $blue-color !important;
+
+    &--text {
+        color: $blue-color !important;
+    }
+}
+
+.navy-blue {
+    background: $tetra-blue !important;
+
+    &--text {
+        color: $tetra-blue !important;
+    }
+}
+
+.sky-blue {
+    background: $skyblue-color !important;
+
+    &--text {
+        color: $skyblue-color !important;
+    }
+}
+
+.white {
+    background: $white-color !important;
+
+    &--text {
+        color: $white-color !important;
+    }
+}
+
+.black {
+    background: $black-color !important;
+
+    &--text {
+        color: $black-color !important;
+    }
+}
+
+.error {
+    background: $danger-color;
+
+    &--text {
+        color: $danger-color;
+    }
+}

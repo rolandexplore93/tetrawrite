@@ -1,0 +1,63 @@
+@import '../../../assets/styles/mixins';
+@import '../../../assets/styles/variable';
+
+.home-banner {
+    background-color: $tetra-blue;
+    height: 724px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+
+    &__content {
+    }
+
+    &__text1 {
+        color: $white-color;
+        text-transform: uppercase;
+    }
+
+    &__text2 {
+        color: $white-color;
+        margin: 0;
+    }
+
+    &__text3 {
+        color: $white-color;
+        width: 440px;
+        margin: 24px 0;
+    }
+
+    &__submission {
+        display: flex;
+        gap: 20px;
+
+        & > button {
+            padding: 16px 32px;
+            outline: 0;
+            cursor: pointer;
+        }    
+    }
+    
+    &__proceed-button {
+        color: $white-color;
+        background-color: $tetra-blue;
+        border: 1px solid $white-color;
+    }
+
+    &__request-button {
+        background-color: $tetra-yellow;
+        color: #000;
+        border: 1px solid $tetra-yellow;
+    }
+
+    &__image {
+        height: 544px;
+
+        & > img {
+            height: inherit;
+            width: 100%;      
+        }
+    }
+}

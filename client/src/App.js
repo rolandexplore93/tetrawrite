@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
+import './assets/styles/index.scss';
+import MetaDescription from './MetaDescription';
+import { BrowserRouter } from 'react-router-dom';
+import AppRoutes from './AppRoutes';
 
 const App = () => {
   return (
-    <div>
-        <h1>App</h1>
-    </div>
+    <BrowserRouter>
+      <MetaDescription />
+      <AppRoutes />
+    </BrowserRouter>
   )
 }
 
